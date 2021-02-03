@@ -2,11 +2,22 @@ body{
   color: white;
 }
 /* MIX */
-.vertical-mid{
-  vertical-align: middle;
+.box{
+  height: 300px;
+  background-color: blue;
+}
+.box_img{
+  height: 200px;
+  width: 390px;
+  background-color: green;
+  border: 2px solid black;
 }
 .txt_dx{
   text-align: right;
+}
+.btm{
+  border: 1px solid white;
+  border-radius: 15px;
 }
 /* /MIX */
 /* ----------barra di navigazione--------- */
@@ -19,14 +30,11 @@ nav .container .col-xs-6 li{
 }
 /* ----------/barra di navigazione--------- */
 /* --------banner------------- */
-.banner{
+.banner, .about{
   background-color: #1abc9c
 }
-.elem_ban_centrato{
-  height: 300px;
-  width: 300px;
-  background-color: blue;
-  /* -------- */
+.elem_centrato{
+  width: 40%;
   margin: 0 auto;
   text-align: center;
 }
@@ -34,5 +42,17 @@ nav .container .col-xs-6 li{
 /* ----------main------------- */
 main{
   color: #2c3e50;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.title_menu{
+  margin: 0 auto;
+  text-align: center;
 }
 /* ----------/main------------- */
+/* -----------section-about--------- */
+.about{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* -----------/section-about--------- */
