@@ -15,9 +15,12 @@ body{
 .txt_dx{
   text-align: right;
 }
+.txt_sx{
+  text-align: left;
+}
 .btm{
-  border: 1px solid white;
-  border-radius: 15px;
+  border: 1px solid red;
+  border-radius: 5px;
 }
 /* /MIX */
 /* ----------barra di navigazione--------- */
@@ -34,7 +37,7 @@ nav .container .col-xs-6 li{
   background-color: #1abc9c
 }
 .elem_centrato{
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   text-align: center;
 }
@@ -56,3 +59,11 @@ main{
   padding-bottom: 50px;
 }
 /* -----------/section-about--------- */
+/* -------------contact_me---------- */
+.contact_me{
+  color: #2c3e50;
+}
+.contact_me .container-fluid .col-xs-12 li{
+  list-style-type: none;
+}
+/* -------------/contact_me---------- */
