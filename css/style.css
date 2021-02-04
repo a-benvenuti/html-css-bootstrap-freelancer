@@ -1,109 +1,101 @@
 body{
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
-/* -------------------MIX-------------------- */
-/* da togliere successivamente */
-.box{
-  height: 300px;
-  background-color: blue;
-  border: 2px solid black;
+h1{
+  font-size: 30px;
 }
-.box_img{
-  height: 200px;
-  width: 100%;
-  background-color: green;
-  border: 2px solid black;
+.color_bg_1{
+  background-color: #1abc9c;
 }
-/* da togliere successivamente */
-.elem_centrato{
-  /* width: 50%;
-  margin: 0 auto; */
-  text-align: center;
-}
-.txt_dx{
-  text-align: right;
-}
-.txt_sx{
-  text-align: left;
-}
-.txt_cen{
-  text-align: center;
-}
-/* -----------------------/MIX--------------- */
-/* ----------barra di navigazione--------- */
-nav, footer{
+.colo_bg_2{
   background-color: #2c3e50;
 }
-nav .container .col-xs-12 li{
-  list-style-type: none;
-  display: inline-block;
-  padding-left: 20px;
+.colo_bg_3{
+  background-color: #1a252f;
 }
-/* ----------/barra di navigazione--------- */
-/* --------banner------------- */
-.banner, .about{
-  background-color: #1abc9c
+.pad_v40{
+  padding: 40px 0;
 }
-/* --------/banner------------- */
-/* ----------main------------- */
-main{
-  color: #2c3e50;
-  padding-top: 30px;
-  padding-bottom: 40px;
+.pad_v20{
+  padding: 20px 0 10px;
+}
+/* -------------------MIX-------------------- */
+.elem_centrato{
+  text-align: center;
 }
 .title_menu{
   margin: 0 auto;
   text-align: center;
 }
+.btn{
+  background-color: #1abc9c;
+  border: 1px solid white;
+  color: white;
+}
+/* -----------------------/MIX--------------- */
+/* ----------barra di navigazione--------- */
+.col-xs-6 nav li {
+  display: inline-block;
+  padding-left: 20px;
+}
+.col-xs-6 nav li a{
+  color: white;
+}
+/* ----------/barra di navigazione--------- */
+/* --------banner------------- */
+.banner .img_banner img{
+  max-height: 220px;
+}
+/* --------/banner------------- */
+/* ----------main------------- */
+main{
+  color: #2c3e50;
+}
+.box_img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.box_img .img_bord img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 /* ----------/main------------- */
 /* -----------section-about--------- */
-.about, .banner{
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+
 /* -----------/section-about--------- */
 /* -------------contact_me---------- */
 .contact_me{
   color: #2c3e50;
 }
-.contact_me .container-fluid .col-xs-12 li{
-  list-style-type: none;
-}
 /* -------------/contact_me---------- */
 /* -------------footer-------- */
-.copyright{
-  background-color: #1a252f;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
+
 /* -------------/footer-------- */
 /* MediaQuery */
 @media screen and (max-width:767px) {
   .elem_centrato{
     width: 100%;
     margin: 0 auto;
-    /* text-align: center; */
   }
 }
 @media screen and (min-width:768px) {
   .elem_centrato{
     width: 85%;
     margin: 0 auto;
-    /* text-align: center; */
   }
 }
 @media screen and (min-width:992px) {
   .elem_centrato{
     width: 65%;
     margin: 0 auto;
-    /* text-align: center; */
   }
 }
 @media screen and (min-width:1200px) {
   .elem_centrato{
     width: 50%;
     margin: 0 auto;
-    /* text-align: center; */
   }
 }
 /* /MediaQuery */

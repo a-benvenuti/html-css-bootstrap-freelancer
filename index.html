@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Google Fonts -->
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- /Google Fonts -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- /Font Awesome -->
     <!-- BootStrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- /BootStrap -->
@@ -15,29 +19,42 @@
     <title>a.benvenuti</title>
   </head>
   <body>
-    <!-- barra di navigazione -->
-    <nav>
+    <!-- barra di navigazione WORK IN PROGRESS-->
+    <header class="colo_bg_2">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-">
+          <div class="col-xs-6">
             <h1>START BOOTSTRAP</h1>
           </div>
-          <div class="col-xs-12 col-sm-6 txt_dx">
-            <ul>
-              <li>PORTFOLIO</li>
-              <li>ABOUT</li>
-              <li>CONTACT</li>
-            </ul>
+          <div class="col-xs-6">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
         </div>
       </div>
-    </nav>
-    <!-- /barra di navigazione -->
+    </header>
+    <!-- /barra di navigazione WORK IN PROGRESS-->
     <!-- banner -->
-    <section class="banner">
+    <section class="banner color_bg_1 pad_v40">
       <div class="box elem_centrato">
         <div class="img_banner">
-          <img src="" alt="">
+          <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="immagineban">
         </div>
         <h2>START BOOTSTRAP</h2>
         <p>Graphic Artist - Web Designer - Illustrator</p>
@@ -45,7 +62,7 @@
     </section>
     <!-- /banner -->
     <!-- corpo della pagina -->
-    <main>
+    <main class="pad_v40">
       <div class="title_menu">
         <h2>PORTFOLIO</h2>
         <!-- mettere qui hrStar -->
@@ -54,32 +71,44 @@
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="box_img">
-
+              <div class="img_bord">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="img1">
+              </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="box_img">
-
+              <div class="img_bord">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="img2">
+              </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="box_img">
-
+              <div class="img_bord">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="img3">
+              </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="box_img">
-
+              <div class="img_bord">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="img4">
+              </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="box_img">
-
+              <div class="img_bord">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="img5">
+              </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="box_img">
-
+              <div class="img_bord">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="img6">
+              </div>
             </div>
           </div>
         </div>
@@ -87,7 +116,7 @@
     </main>
     <!-- /corpo della pagina -->
     <!-- sezione download -->
-    <section class="about">
+    <section class="about color_bg_1 pad_v40">
       <div class="title_menu">
         <h2>ABOUT</h2>
         <!-- mettere qui hrStar -->
@@ -96,13 +125,15 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-xs-12 col-md-6">
-              <p class="txt_sx">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+              <p class="text-left">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
             </div>
             <div class="col-xs-12 col-md-6">
-              <p class="txt_sx">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+              <p class="text-left">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
             </div>
+          </div>
+          <div class="row">
             <div class="col-xs-12">
-              <a href="#section-download">Free Download!</a>
+              <button type="button" class="btn btn-outline-secondary"><i class="fas fa-download"></i> Free Download</button>
             </div>
           </div>
         </div>
@@ -110,7 +141,7 @@
     </section>
     <!-- /sezione download -->
     <!-- sezione contact -->
-    <section class="contact_me">
+    <section class="contact_me pad_v40">
       <div class="title_menu">
         <h2>CONTACT ME</h2>
         <!-- mettere qui hrStar -->
@@ -118,18 +149,28 @@
       <div class="elem_centrato">
         <div class="container-fluid">
           <div class="row">
-            <div class="txt_sx col-xs-12">
-              <ul>
-                <li>Name</li>
-                <li>Email Address</li>
-                <li>Phone Number</li>
-                <li>Message</li>
-              </ul>
+            <div class="text-left col-xs-12">
+              <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Name</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2">Email Address</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2">Phone Number</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+              </form>
             </div>
-            <div class="txt_sx col-xs-12">
-              <ul>
-                <li><a href="#section-send">Send</a></li>
-              </ul>
+            <div class="text-left col-xs-12">
+              <button type="button" class="btn btn-outline-secondary">Send</button>
             </div>
           </div>
         </div>
@@ -137,26 +178,28 @@
     </section>
     <!-- /sezione contact -->
     <!-- pie di pagina -->
-    <footer class="txt_cen">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-4">
-            <h3>LOCATION</h3>
-            <p>Lorem</p>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <h3>AROUND THE WEB</h3>
-            <p>Icon-Social</p>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <h3>ABOUT FREELANCER</h3>
-            <p>Lorem</p>
-            <a href="#start">Start Bootstrap</a>
+    <footer class="text-center colo_bg_2">
+      <div class="foot_top pad_v40">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <h3>LOCATION</h3>
+              <p>Lorem</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <h3>AROUND THE WEB</h3>
+              <p>Icon-Social</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <h3>ABOUT FREELANCER</h3>
+              <p>Lorem</p>
+              <a href="#start">Start Bootstrap</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="copyright">
-        <p>Copyright © Your Website 2020</p>
+      <div class="copyright colo_bg_3 pad_v20">
+        <p><small>Copyright © Your Website 2020</small></p>
       </div>
     </footer>
     <!-- /pie di pagina -->
