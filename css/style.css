@@ -42,6 +42,15 @@ h1{
   border: 1px solid white;
   color: white;
 }
+.separatore_star{
+  margin: 0 auto;
+  text-align: center;
+}
+.elem_centrato_small{
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
 /* -----------------------/MIX--------------- */
 /* ----------barra di navigazione--------- */
 .col-xs-6 nav li {
@@ -64,17 +73,32 @@ h1{
   height: auto;
   border-radius: 10px;
 }
+/* .plus_hover{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: red;
+} */
 /* ----------/main------------- */
 /* -----------section-about--------- */
 
 /* -----------/section-about--------- */
 /* -------------contact_me---------- */
-
+.form-group{
+  border-bottom: 1px solid lightgrey;
+}
+input, textarea{
+  visibility: hidden;
+}
 /* -------------/contact_me---------- */
 /* -------------footer-------- */
-/* footer a{
-  color: white;
-} */
+footer .social_link i{
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px;
+  margin: 7px;
+}
 /* -------------/footer-------- */
 /* MediaQuery */
 @media screen and (max-width:767px) {
