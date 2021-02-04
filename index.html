@@ -21,30 +21,26 @@
   <body>
     <!-- barra di navigazione WORK IN PROGRESS-->
     <header class="colo_bg_2 pad_v20">
-      <nav class="navbar navbar-default colo_bg_2">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"> <span class="color_0">START BOOTSTRAP</span> </a>
+      <nav class="navbar-fixed-top colo_bg_2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-7">
+              <h3 class="nav_logo">START BOOTSTRAP</h3>
+            </div>
+            <div class="col-xs-5">
+              <nav class="nav_style_menu text-right">
+                <ul class="nav_md list-inline text-right">
+                  <li><a href="#">PORTFOLIO</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">CONTACT</a></li>
+                </ul>
+                <button class="nav_btn text-right">
+                  <i class="fas fa-bars"></i> <span>menù</span>
+                </button>
+              </nav>
+            </div>
           </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="color_0 link">PORTFOLIO</span></a></li>
-              <li><a href="#"><span class="color_0 link">ABOUT</span></a></li>
-              <li><a href="#"><span class="color_0 link">CONTACT</span></a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+        </div>
       </nav>
     </header>
     <!-- /barra di navigazione WORK IN PROGRESS-->
@@ -237,25 +233,33 @@
             </div>
             <div class="col-xs-12 col-md-4">
               <h3>AROUND THE WEB</h3>
-              <div class="social_link">
-                <div class="social_img">
-                  <i class="fab fa-facebook-f social-icon"></i>
+              <ul class="list-inline">
+              <li>
+                <div class="social_box">
+                  <i class="icon fab fa-facebook-f"></i>
                 </div>
-                <div class="social_img">
-                  <i class="fab fa-twitter social-icon"></i>
+              </li>
+              <li>
+                <div class="social_box">
+                  <i class="icon fab fa-twitter"></i>
                 </div>
-                <div class="social_img">
-                  <i class="fab fa-linkedin-in social-icon"></i>
+              </li>
+              <li>
+                <div class="social_box">
+                  <i class="icon fab fa-linkedin-in"></i>
                 </div>
-                <div class="social_img">
-                  <i class="fas fa-basketball-ball"></i>
+              </li>
+              <li>
+                <div class="social_box">
+                  <i class="icon fab fa-dribbble"></i>
                 </div>
-              </div>
+              </li>
+            </ul>
             </div>
             <div class="col-xs-12 col-md-4">
               <h3>ABOUT FREELANCER</h3>
               <p>Freelance is a free to use, MIT<br>licensed Bootstrap theme created by</p>
-              <a href="#start" class="color_1">Start Bootstrap</a>
+              <a href="#start" class="color_1"><span class="link2">Start Bootstrap</span></a>
             </div>
           </div>
         </div>
