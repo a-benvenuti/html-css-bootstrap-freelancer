@@ -5,6 +5,15 @@ body{
 h1{
   font-size: 30px;
 }
+.color_0{
+  color: white;
+}
+.color_1{
+  color: #1abc9c;
+}
+.color_2{
+  color: #2c3e50;
+}
 .color_bg_1{
   background-color: #1abc9c;
 }
@@ -39,9 +48,6 @@ h1{
   display: inline-block;
   padding-left: 20px;
 }
-.col-xs-6 nav li a{
-  color: white;
-}
 /* ----------/barra di navigazione--------- */
 /* --------banner------------- */
 .banner .img_banner img{
@@ -49,9 +55,6 @@ h1{
 }
 /* --------/banner------------- */
 /* ----------main------------- */
-main{
-  color: #2c3e50;
-}
 .box_img{
   width: 100%;
   margin-bottom: 30px;
@@ -66,12 +69,12 @@ main{
 
 /* -----------/section-about--------- */
 /* -------------contact_me---------- */
-.contact_me{
-  color: #2c3e50;
-}
+
 /* -------------/contact_me---------- */
 /* -------------footer-------- */
-
+/* footer a{
+  color: white;
+} */
 /* -------------/footer-------- */
 /* MediaQuery */
 @media screen and (max-width:767px) {
