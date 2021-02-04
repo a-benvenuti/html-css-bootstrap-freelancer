@@ -21,33 +21,31 @@
   <body>
     <!-- barra di navigazione WORK IN PROGRESS-->
     <header class="colo_bg_2">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6">
-            <h1>START BOOTSTRAP</h1>
+      <nav class="navbar navbar-default colo_bg_2">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> <span class="color_0">START BOOTSTRAP</span> </a>
           </div>
-          <div class="col-xs-6">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link color_0" href="#">PORTFOLIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link color_0" href="#">ABOUT</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link color_0" href="#">CONTACT</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="color_0">PORTFOLIO</span></a></li>
+              <li><a href="#"><span class="color_0">ABOUT</span></a></li>
+              <li><a href="#"><span class="color_0">CONTACT</span></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
     </header>
     <!-- /barra di navigazione WORK IN PROGRESS-->
     <!-- banner -->
@@ -60,14 +58,14 @@
         <div class="separatore_star">
           <div class="elem_centrato_small">
             <div class="container-fluid">
-              <div class="col-xs-4">
-                <i class="fas fa-minus"></i>
+              <div class="col-xs-4 vert_mid">
+                <hr>
               </div>
-              <div class="col-xs-4">
+              <div class="col-xs-4 vert_mid">
                 <i class="fas fa-star"></i>
               </div>
-              <div class="col-xs-4">
-                <i class="fas fa-minus"></i>
+              <div class="col-xs-4 vert_mid">
+                <hr>
               </div>
             </div>
           </div>
@@ -80,7 +78,21 @@
     <main class="pad_v40 color_2">
       <div class="title_menu">
         <h2>PORTFOLIO</h2>
-        <!-- mettere qui hrStar -->
+        <div class="separatore_star">
+          <div class="elem_centrato_small">
+            <div class="container-fluid">
+              <div class="col-xs-4 vert_mid">
+                <hr>
+              </div>
+              <div class="col-xs-4 vert_mid">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="col-xs-4 vert_mid">
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="container">
         <div class="row">
@@ -89,6 +101,9 @@
               <div class="img_bord">
                 <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="img1">
               </div>
+              <!-- <div class="plus_hover">
+                <i class="fas fa-plus"></i>
+              </div> -->
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
@@ -134,7 +149,21 @@
     <section class="about color_bg_1 pad_v40">
       <div class="title_menu">
         <h2>ABOUT</h2>
-        <!-- mettere qui hrStar -->
+        <div class="separatore_star">
+          <div class="elem_centrato_small">
+            <div class="container-fluid">
+              <div class="col-xs-4 vert_mid">
+                <hr>
+              </div>
+              <div class="col-xs-4 vert_mid">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="col-xs-4 vert_mid">
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="elem_centrato">
         <div class="container-fluid">
@@ -159,7 +188,21 @@
     <section class="contact_me pad_v40 color_2">
       <div class="title_menu">
         <h2>CONTACT ME</h2>
-        <!-- mettere qui hrStar -->
+        <div class="separatore_star">
+          <div class="elem_centrato_small">
+            <div class="container-fluid">
+              <div class="col-xs-4 vert_mid">
+                <hr>
+              </div>
+              <div class="col-xs-4 vert_mid">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="col-xs-4 vert_mid">
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="elem_centrato">
         <div class="container-fluid">
@@ -204,10 +247,18 @@
             <div class="col-xs-12 col-md-4">
               <h3>AROUND THE WEB</h3>
               <div class="social_link">
-                <i class="fab fa-facebook-f social-icon"></i>
-                <i class="fab fa-twitter social-icon"></i>
-                <i class="fab fa-linkedin-in social-icon"></i>
-                <i class="fas fa-basketball-ball"></i>
+                <div class="social_img">
+                  <i class="fab fa-facebook-f social-icon"></i>
+                </div>
+                <div class="social_img">
+                  <i class="fab fa-twitter social-icon"></i>
+                </div>
+                <div class="social_img">
+                  <i class="fab fa-linkedin-in social-icon"></i>
+                </div>
+                <div class="social_img">
+                  <i class="fas fa-basketball-ball"></i>
+                </div>
               </div>
             </div>
             <div class="col-xs-12 col-md-4">
