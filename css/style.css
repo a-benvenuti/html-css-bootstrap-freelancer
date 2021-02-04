@@ -11,6 +11,9 @@ body{
 .color_2{
   color: #2c3e50;
 }
+.color_bg_0{
+  background-color: white;
+}
 .color_bg_1{
   background-color: #1abc9c;
 }
@@ -60,16 +63,16 @@ body{
 }
 /* ----/botton---- */
 /* ----------SEPARATORE---------- */
-.separatore_star{
-  margin: 0 auto;
-  text-align: center;
+.separatore{
+  margin-bottom: 15px;
 }
-.elem_centrato_small{
-  width: 30%;
-  margin: 0 auto;
-  text-align: center;
+.linea{
+  height: 2px;
+  width:90px;
+  display: inline-block;
+  vertical-align: middle;
 }
-.vert_mid{
+.separatore i{
   vertical-align: middle;
 }
 /* ----------/SEPARATORE---------- */
@@ -111,7 +114,7 @@ body{
   width: 100%;
   height: 100%;
 }
-/* --------------------------- */
+/* -------------- */
 .overlay {
   position: absolute;
   top: 0;
@@ -133,9 +136,6 @@ body{
   transform: translate(-50%, -50%);
 }
 /* ----------/main------------- */
-/* -----------section-about--------- */
-
-/* -----------/section-about--------- */
 /* -------------contact_me---------- */
 .form-group{
   border-bottom: 1px solid lightgrey;
