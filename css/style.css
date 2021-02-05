@@ -2,6 +2,32 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
+/* Typo */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: bold;
+}
+.banner .elem_centrato h2{
+  font-size: 48px;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 26px;
+}
+p{
+  font-size: 17px;
+}
+.nav_md a{
+  font-weight: bold;
+  font-size: 16px;
+}
+/* /Typo */
 .color_0{
   color: white;
 }
@@ -23,10 +49,16 @@ body{
 .colo_bg_3{
   background-color: #1a252f;
 }
+.pad_header{
+  padding: 60px 0 35px;
+}
+.pad_v60{
+  padding: 60px 0;
+}
 .pad_v40{
   padding: 40px 0;
 }
-.pad_v20{
+.pad_cop{
   padding: 20px 0 10px;
 }
 /* -------------------MIX-------------------- */
@@ -58,7 +90,8 @@ body{
 }
 .btn{
   background-color: #1abc9c;
-  border: 1px solid white;
+  border: 2px solid white;
+  padding: 15px 30px;
   color: white;
 }
 /* ----/botton---- */
@@ -67,12 +100,15 @@ body{
   margin-bottom: 15px;
 }
 .linea{
-  height: 2px;
-  width:90px;
+  height: 4px;
+  width:120px;
+  border-radius: 10px;
   display: inline-block;
   vertical-align: middle;
 }
 .separatore i{
+  font-size: 25px;
+  padding: 0 15px;
   vertical-align: middle;
 }
 /* ----------/SEPARATORE---------- */
@@ -83,11 +119,10 @@ body{
   padding: 20px 0;
 }
 .nav_style_menu{
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .nav_style_menu li{
   padding: 10px;
-  border-radius: 5px;
 }
 .nav_style_menu a{
   color: white;
@@ -109,6 +144,7 @@ body{
   overflow: hidden;
   border-radius: 10px;
   position: relative;
+  cursor: pointer;
 }
 .img_bord{
   width: 100%;
@@ -119,6 +155,8 @@ body{
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(26, 188, 156, 0.9);
@@ -140,16 +178,44 @@ body{
 .form-group{
   border-bottom: 1px solid lightgrey;
 }
-input, textarea{
-  visibility: hidden;
+.form-group label{
+  font-weight: 500;
+  font-size: 18px;
+  color: grey;
+}
+.form-control{
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
 }
 /* -------------/contact_me---------- */
 /* -------------footer-------- */
 .social_box{
-  border: 2px solid;
+  padding-left: 0px;
+}
+.social_box li{
+  display: inline-block;
+}
+.social_box li:not(:last-child){
+  margin-right: 10px;
+}
+.social_box li a{
+  color: white;
+  display: inline-block;
+  height: 50px;
+  line-height: 46px;
+  width: 50px;
+  border: 2px solid white;
   border-radius: 50%;
-  padding: 10px;
-  width: 40px;
+}
+.social_box li a:hover{
+  background-color: white;
+  color: #2c3e50;
+}
+/* -------- */
+.copyright small{
+  font-weight: lighter;
+  font-size: 12px;
 }
 /* -------------/footer-------- */
 /* MediaQuery */
